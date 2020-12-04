@@ -1,0 +1,22 @@
+{
+ "name": "resize-images",
+ "version": "1.0.0",
+ "main": "index.js",
+ "repository": "https://github.com/eliezersamuel/resize-images.git",
+ "author": "eliezersamuel <eliezer_sss@hotmail.com>",
+ "license": "MIT",
+ "scripts": {
+  "lint": "eslint ./",
+  "start": "nodemon resize.js ./lamp.png --size=45,50,68 --format=webp"
+ },
+ "devDependencies": {
+  "eslint": "^7.14.0",
+  "eslint-config-prettier": "^6.15.0",
+  "eslint-plugin-prettier": "^3.1.4",
+  "nodemon": "^2.0.6"
+ },
+ "dependencies": {
+  "minimist": "^1.2.5",
+  "sharp": "^0.26.3"
+ }
+}
